@@ -1,0 +1,13 @@
+September 21, 2013
+
+I didn't like how alsamixergui interface is so complicated.
+On my machine, even the master volume has two bars, one each for left
+and right. Usually I just want to make system volume bigger or smaller.
+
+This is just simple volume controller (uses amixer), with gui using
+Tkinter. You can also control volume with mouse wheel.
+
+I have not bothered to make this a background program, because for me,
+there's not much difference for me (I just use openbox without a taskbar).
+
+Seems to work with both Python 2 and 3 on my machine.
